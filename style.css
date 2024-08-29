@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f5f5;
+  color: #323232;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgba(13, 115, 119, 01);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #323232;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover,
+.lang-switch a.active {
+  color: #14ffec;
+}
+
+.lang a {
+  text-decoration: none;
+  flex: 1;
+  color: #14ffec;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  height: 85vh;
+  background-color: #0d7377;
+  background-image: url("bg-pattern.png");
+  background-size: cover;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin: 0 0 20px;
+}
+
+.highlight {
+  color: #14ffec;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #14ffec;
+  color: #323232;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #0d7377;
+}
+
+.hero-image img {
+  max-width: 400px;
+  border-radius: 10px;
+}
